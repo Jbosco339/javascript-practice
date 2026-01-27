@@ -5,7 +5,7 @@ console.warn("Please enter the correct details")
 // VARIABLES IN JAVASCRIPT
 // use let and const to declear variables, let variables can change but const variables cannot change once declared
 // DATATYPES IN JAVASCRIPT: strings, Numbers, Boolean, null, undefined and symbols.
-const Name = 'John';
+const Name = 'Philomena';
 const age = 40;
 const score = 9.6;
 const iscool = true;
@@ -23,4 +23,70 @@ console.log(`my name is ${Name} and i am ${age}`)
 
 /* ARRAYS:thesse are variables that holds multiple values */
 const fruits = ['mango', 'orange', 'pineapple', 'grapes']; 
+console.log(fruits[0])
+fruits[4] = 'banana'
+fruits.push('star apple')
 console.log(fruits)
+
+// OBJECT LITERALS
+const individual = {
+    name: 'benjamin',
+    age: 27,
+    meal:'beans',
+    address:{
+        street: 'chibiake',
+        LGA: 'Benue' ,
+        houseNo: 20,
+    }
+}
+console.log(individual.name, individual.meal)
+console.log(individual.address.LGA)
+
+// ARRAYS OF OBJECT
+const todos = [
+    {
+        id: 1,
+        task: 'make breakfast',
+        done: false
+    },
+    {
+        id: 2,
+        task: 'doctor appointment',
+        done: false
+    },
+    {
+        id: 3,
+        task: 'go for workout',
+        done: false
+    },
+]
+console.log(todos[1].task)
+
+// TO CONVERT ARRAYS OBJECTS TO JSON FILES
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON)
+
+// FOR LOOPS
+for ( let i = 0; i <= 10; i++){
+    console.log(i)
+}
+console.log('while loop begins here')
+// WHILE LOOP
+let i = 0;
+while (i <= 5){
+    console.log(`while loop: ${i}`);
+    i++;
+}
+// CONDITIONALS
+const examscore = 50;
+if(examscore > 45){
+    console.log('you got a pass mark');
+}else{
+    console.log('try again next year')
+}
+
+const a = 7;
+const b = 10;
+if(a > 5 || b > 10){
+    console.log('a is more than five or b is greater than ten')
+}
