@@ -16,7 +16,7 @@
 }
 #form{
     width: 40%;
-    background-color: lightgray;
+    background-color: rgb(230, 146, 146);
     margin-left: 5%;
     padding: 20px;
 }
@@ -29,10 +29,15 @@
     border-radius: 5px;
     border: none;
 }
-.button{
+button{
     padding: 5px;
     margin-top: 8px;
     width: 95%;
     color: white;
     background-color: black;
+}
+.new_bg{
+    background-color: yellowgreen;
+    color: white;
+
 }
