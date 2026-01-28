@@ -90,3 +90,45 @@ const b = 10;
 if(a > 5 || b > 10){
     console.log('a is more than five or b is greater than ten')
 }
+
+// SWITCH CASE
+const c = 19;
+const color = 'red' ;
+switch(color){
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'blue':
+        console.log('color is blue');
+        break;
+        default:
+            console.log('the color is not red or blue');
+}
+
+// FUNCTIONS
+const add = (numb1, numb2) =>{
+  return numb1 + numb2
+    console.log('the sum is '+ add);
+    // using back ticks   
+}
+console.log('the sum is '+ add(2,4));
+
+// constructor function
+function Person(firstName, lastName, dob){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);
+}
+// instatiate the object
+const person1 = new Person('john', 'doe', '21-5-1998');
+const person2 = new Person('ben', 'grace', '4-3-1987');
+
+console.log(person1.firstName)
+console.log(person2.lastName)
+
+// DOM
+
+
+
+
+
