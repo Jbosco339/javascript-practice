@@ -16,7 +16,7 @@
 }
 #form{
     width: 40%;
-    background-color: rgb(230, 146, 146);
+    background-color: gray;
     margin-left: 5%;
     padding: 20px;
 }
@@ -37,7 +37,7 @@ button{
     background-color: black;
 }
 .new_bg{
-    background-color: yellowgreen;
+    background-color: red;
     color: white;
 
 }

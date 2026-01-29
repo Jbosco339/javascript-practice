@@ -131,8 +131,15 @@ const submit = document.querySelector('.button');
 
 submit.addEventListener('click', (e) =>{
     e.preventDefault();
-    document.querySelector('#form').classList.add('new_bg');
+    form.style.background = 'red'
+    form.style.color = 'white'
 });
+
+let gifti = {
+    age: 17,
+    nickName: 'keshi',
+    career: 'pilot'
+}
 
 
 
